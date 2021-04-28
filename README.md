@@ -8,15 +8,15 @@
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
-* [Inspiration](#inspiration)
 * [Author](#author)
 
 ## General info
 LuGas BOT adalah suatu program untuk menyimpan data tugas user memanfaatkan algoritma regex, dan boyer moore 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-
+![Example screenshot](./img/1.jpg)
+![Example screenshot](./img/2.jpg)
+![Example screenshot](./img/3.jpg)
 ## Technologies
 * Node.js - v12.16.1
 * Angular CLI - version 9.1.15
@@ -25,7 +25,7 @@ LuGas BOT adalah suatu program untuk menyimpan data tugas user memanfaatkan algo
 
 ## Setup
 
-* project link : https://string-matching-stima.herokuapp.com/
+* project link : https://lugas-bot.herokuapp.com/
 
 * Setup using local client but deployed server
  - buka folder StringMatchingClientAngular pada folder src menggunakan terminal
@@ -40,9 +40,14 @@ LuGas BOT adalah suatu program untuk menyimpan data tugas user memanfaatkan algo
  - jalankan perintah "ng serve --open" pada terminal tanpa menggunakan kutip
  - buka client pada browser dengan link http://localhost:4200/
 
-## Code Examples
+## Input Examples
 Show examples of usage:
-`put-your-code-here`
+"Halo bot, tolong ingetin kalau ada kuis IF3110 Bab 2 sampai 3 pada 22/04/21"
+"deadline saat ini"
+"deadline dalam 3 minggu"
+"deadline antara 01/04/2021 sampai 05/07/2021"
+"task 1 selesai"
+"Deadline Task 3 diundur jadi 10 Juli 2021"
 
 ## Features
 1. Add task (mengimpan task pada database) \
